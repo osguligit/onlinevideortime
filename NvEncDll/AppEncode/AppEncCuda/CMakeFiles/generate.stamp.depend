@@ -1,0 +1,9 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.18/Modules/FindCUDA.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/FindCUDA/run_nvcc.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/FindCUDA/select_compute_arch.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/FindPackageMessage.cmake
+D:/_gitlab/SK_SOURCE/Video_Codec_SDK_10.0.26_bulid/Samples/AppEncode/AppEncCuda/CMakeLists.txt
+D:/_gitlab/SK_SOURCE/Video_Codec_SDK_10.0.26_bulid/Samples/build/AppEncode/AppEncCuda/CMakeFiles/AppEncCuda.dir/__/__/Utils/AppEncCuda_generated_crc.cu.obj.cmake.pre-gen
+D:/_gitlab/SK_SOURCE/Video_Codec_SDK_10.0.26_bulid/Samples/build/AppEncode/AppEncCuda/CMakeFiles/AppEncCuda.dir/__/__/Utils/AppEncCuda_generated_crc.cu.obj.depend

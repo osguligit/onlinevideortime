@@ -1,0 +1,8 @@
+.vs
+__obj/
+#*.*obj
+*.*pdb
+*.*exp
+#x64/Release/*.lib
+#x64/Release/*.dll
+*.h264

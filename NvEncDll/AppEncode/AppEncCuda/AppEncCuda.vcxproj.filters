@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\NvCodec\NvEncoder\NvEncoder.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NvCodec\NvEncoder\NvEncoderCuda.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\NvCodec\NvEncoder\NvEncoderOutputInVidMemCuda.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="NvEncDll.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="CNvEnc.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Interface\nvEncodeAPI.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Utils\NvCodecUtils.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Utils\NvEncoderCLIOptions.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NvCodec\NvEncoder\NvEncoder.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NvCodec\NvEncoder\NvEncoderCuda.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\NvCodec\NvEncoder\NvEncoderOutputInVidMemCuda.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="NvEncDll.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CNvEnc.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="EncoderConfig.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Object Files">
+      <UniqueIdentifier>{924E7C05-4529-3EDE-83F8-4BBBC00C0DBD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers">
+      <UniqueIdentifier>{3DFF0368-08FE-32DE-811A-6AD8519C3841}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources">
+      <UniqueIdentifier>{899A121F-A7FF-3D4A-94E5-8FC167B7E1E8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Utils\crc.cu">
+      <Filter>sources</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="CMakeFiles\AppEncCuda.dir\__\__\Utils\$(Configuration)\AppEncCuda_generated_crc.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+  </ItemGroup>
+</Project>
